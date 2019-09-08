@@ -86,10 +86,10 @@
     <Compile Include="about.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="assets\secret.Designer.vb">
+    <Compile Include="secret.Designer.vb">
       <DependentUpon>secret.vb</DependentUpon>
     </Compile>
-    <Compile Include="assets\secret.vb">
+    <Compile Include="secret.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PASSCODE.Designer.vb">
@@ -149,7 +149,7 @@
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="assets\secret.resx">
+    <EmbeddedResource Include="secret.resx">
       <DependentUpon>secret.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PASSCODE.resx">
