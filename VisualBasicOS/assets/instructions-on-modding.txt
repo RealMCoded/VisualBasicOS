@@ -1,0 +1,5 @@
+﻿If You are going to mod VBOS, make sure that each file name is the exact same as the original files and the original format.
+
+EXAMPLE: Changing leaves.jpg for a new file? make sure the new file is the exact name and file type as leaves.jpg. then delete the old file.
+
+Later, i may make a tool to mod VBOS in a easier way.
