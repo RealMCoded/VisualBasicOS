@@ -55,11 +55,11 @@ Partial Class about
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(54, 246)
+        Me.Label2.Location = New System.Drawing.Point(20, 246)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(187, 31)
+        Me.Label2.Size = New System.Drawing.Size(270, 31)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version 0.0.4"
+        Me.Label2.Text = "Version 0.0.4 PRE1"
         '
         'Label3
         '
