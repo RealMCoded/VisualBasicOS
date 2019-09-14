@@ -193,9 +193,6 @@
     <Content Include="assets\misc\AppMenuButton.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\misc\cp_dance.gif">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="assets\misc\please1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
