@@ -203,6 +203,9 @@
     <Content Include="assets\sounds\pizza.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\wallpapers\default.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\wallpapers\Sand-Dune.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

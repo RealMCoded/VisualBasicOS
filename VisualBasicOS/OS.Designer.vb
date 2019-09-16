@@ -28,6 +28,7 @@ Partial Class OS
         Me.WinClock = New System.Windows.Forms.Label()
         Me.AMB = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -43,7 +44,6 @@ Partial Class OS
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TimeUpdater = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -115,6 +115,16 @@ Partial Class OS
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(751, 391)
         Me.Panel2.TabIndex = 1
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.Location = New System.Drawing.Point(667, 298)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(81, 23)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "stop all audio"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Label6
         '
@@ -254,16 +264,6 @@ Partial Class OS
         '
         'TimeUpdater
         '
-        '
-        'Button1
-        '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(670, 298)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 23)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "stop all audio"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'OS
         '
