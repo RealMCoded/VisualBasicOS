@@ -44,6 +44,7 @@ Partial Class OS
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TimeUpdater = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -97,6 +98,7 @@ Partial Class OS
         Me.Panel2.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.PictureBox2)
@@ -118,8 +120,8 @@ Partial Class OS
         '
         'Button1
         '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(667, 298)
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.Location = New System.Drawing.Point(667, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(81, 23)
         Me.Button1.TabIndex = 17
@@ -149,8 +151,9 @@ Partial Class OS
         '
         'Label5
         '
+        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(703, 26)
+        Me.Label5.Location = New System.Drawing.Point(703, 45)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(34, 13)
         Me.Label5.TabIndex = 14
@@ -179,8 +182,9 @@ Partial Class OS
         '
         'Label2
         '
+        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(707, 10)
+        Me.Label2.Location = New System.Drawing.Point(707, 29)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(30, 13)
         Me.Label2.TabIndex = 11
@@ -265,6 +269,16 @@ Partial Class OS
         'TimeUpdater
         '
         '
+        'Label7
+        '
+        Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(707, 63)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(33, 13)
+        Me.Label7.TabIndex = 18
+        Me.Label7.Text = "T-NO"
+        '
         'OS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -310,4 +324,5 @@ Partial Class OS
     Friend WithEvents Label6 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label7 As Label
 End Class

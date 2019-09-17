@@ -25,6 +25,7 @@ Partial Class WallChange
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WallChange))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.WP4_SLC = New System.Windows.Forms.RadioButton()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -66,6 +67,7 @@ Partial Class WallChange
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.WP4_SLC)
         Me.GroupBox1.Controls.Add(Me.Panel2)
         Me.GroupBox1.Controls.Add(Me.Panel1)
         Me.GroupBox1.Controls.Add(Me.WP1_COL)
@@ -81,6 +83,17 @@ Partial Class WallChange
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Background"
+        '
+        'WP4_SLC
+        '
+        Me.WP4_SLC.AutoSize = True
+        Me.WP4_SLC.Location = New System.Drawing.Point(129, 123)
+        Me.WP4_SLC.Name = "WP4_SLC"
+        Me.WP4_SLC.Size = New System.Drawing.Size(105, 17)
+        Me.WP4_SLC.TabIndex = 8
+        Me.WP4_SLC.TabStop = True
+        Me.WP4_SLC.Text = "default wallpaper"
+        Me.WP4_SLC.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -323,4 +336,5 @@ Partial Class WallChange
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents WP4_SLC As RadioButton
 End Class

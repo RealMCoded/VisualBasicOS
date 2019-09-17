@@ -28,6 +28,8 @@
             WP2_SLT.Checked = True
         ElseIf OS.Label2.Text = "LVE" Then
             RadioButton3.Checked = True
+        ElseIf OS.Label2.Text = "DEF" Then
+            WP4_SLC.Checked = True
         End If
         If OS.Label5.Text = "D-YES" Then
             OS.Label2.Show()
@@ -47,18 +49,28 @@
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
-        MsgBox("if you hacked the executable to see the transparency, your out of luck...")
+        'MsgBox("if you hacked the executable to see the transparency, your out of luck...")
+
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
         If CheckBox2.Checked = True Then
             OS.Label2.Show()
             OS.Label5.Show()
+            OS.Label7.Show()
             OS.Label5.Text = "D-YES"
         Else
             OS.Label2.Hide()
             OS.Label5.Hide()
+            OS.Label7.Hide()
             OS.Label5.Text = "D-NO"
         End If
+    End Sub
+
+    Private Sub WP4_SLC_CheckedChanged(sender As Object, e As EventArgs) Handles WP4_SLC.CheckedChanged
+        OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
+        OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
+        OS.Panel2.BackColor = Color.DodgerBlue
+        OS.Label2.Text = "DEF"
     End Sub
 End Class
