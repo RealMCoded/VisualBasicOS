@@ -10,12 +10,12 @@
         Label2.Hide()
         Label5.Hide()
         Label7.Hide()
-        Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
-        'Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
+        'Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
+        Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
         AMB.BackgroundImageLayout = ImageLayout.Stretch
-        Panel2.BackColor = Color.DodgerBlue
+        Panel2.BackColor = Color.LightSkyBlue
         My.Computer.Audio.Play(".\assets\sounds\startup.wav")
         'Transp_Toggle.Hide()
         TimeUpdater.Start()
@@ -79,7 +79,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is EARLY TEST PRE1 0.0.4", MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is EARLY TEST PRE2 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
@@ -93,7 +93,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is EARLY TEST PRE1 0.0.4", MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is EARLY TEST PRE2 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If

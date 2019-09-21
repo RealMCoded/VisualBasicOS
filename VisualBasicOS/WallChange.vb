@@ -18,8 +18,9 @@
     End Sub
 
     Private Sub WallChange_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        WP1_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
-        WP2_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\Sand-Dune.jpg")
+        WP2_SLT.Hide()
+        WP1_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
+        WP2_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
         PictureBox3.BackgroundImage = Image.FromFile(".\assets\wallpapers\leaves.jpg")
         OS.Label2.Show()
         If OS.Label2.Text = "FLW" Then
@@ -70,7 +71,7 @@
     Private Sub WP4_SLC_CheckedChanged(sender As Object, e As EventArgs) Handles WP4_SLC.CheckedChanged
         OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
         OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
-        OS.Panel2.BackColor = Color.DodgerBlue
+        OS.Panel2.BackColor = Color.LightSkyBlue
         OS.Label2.Text = "DEF"
     End Sub
 End Class

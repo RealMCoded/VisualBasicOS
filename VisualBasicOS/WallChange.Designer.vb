@@ -87,12 +87,12 @@ Partial Class WallChange
         'WP4_SLC
         '
         Me.WP4_SLC.AutoSize = True
-        Me.WP4_SLC.Location = New System.Drawing.Point(129, 123)
+        Me.WP4_SLC.Location = New System.Drawing.Point(45, 123)
         Me.WP4_SLC.Name = "WP4_SLC"
-        Me.WP4_SLC.Size = New System.Drawing.Size(105, 17)
+        Me.WP4_SLC.Size = New System.Drawing.Size(110, 17)
         Me.WP4_SLC.TabIndex = 8
         Me.WP4_SLC.TabStop = True
-        Me.WP4_SLC.Text = "default wallpaper"
+        Me.WP4_SLC.Text = "Default Wallpaper"
         Me.WP4_SLC.UseVisualStyleBackColor = True
         '
         'Panel2
@@ -117,7 +117,7 @@ Partial Class WallChange
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Tan
+        Me.Panel1.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel1.Controls.Add(Me.WP2_ST)
         Me.Panel1.Location = New System.Drawing.Point(305, 91)
         Me.Panel1.Name = "Panel1"
@@ -137,7 +137,7 @@ Partial Class WallChange
         '
         'WP1_COL
         '
-        Me.WP1_COL.BackColor = System.Drawing.Color.DodgerBlue
+        Me.WP1_COL.BackColor = System.Drawing.Color.LightSkyBlue
         Me.WP1_COL.Controls.Add(Me.WP1_ST)
         Me.WP1_COL.Location = New System.Drawing.Point(132, 91)
         Me.WP1_COL.Name = "WP1_COL"
@@ -199,7 +199,7 @@ Partial Class WallChange
         'WP2_SLT
         '
         Me.WP2_SLT.AutoSize = True
-        Me.WP2_SLT.Location = New System.Drawing.Point(234, 123)
+        Me.WP2_SLT.Location = New System.Drawing.Point(328, 131)
         Me.WP2_SLT.Name = "WP2_SLT"
         Me.WP2_SLT.Size = New System.Drawing.Size(79, 17)
         Me.WP2_SLT.TabIndex = 1
@@ -209,7 +209,7 @@ Partial Class WallChange
         'WP1_SLT
         '
         Me.WP1_SLT.AutoSize = True
-        Me.WP1_SLT.Location = New System.Drawing.Point(68, 123)
+        Me.WP1_SLT.Location = New System.Drawing.Point(240, 123)
         Me.WP1_SLT.Name = "WP1_SLT"
         Me.WP1_SLT.Size = New System.Drawing.Size(61, 17)
         Me.WP1_SLT.TabIndex = 0
