@@ -15,7 +15,7 @@
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
         AMB.BackgroundImageLayout = ImageLayout.Stretch
-        Panel2.BackColor = Color.LightSkyBlue
+        Panel2.BackColor = Color.DeepSkyBlue
         My.Computer.Audio.Play(".\assets\sounds\startup.wav")
         'Transp_Toggle.Hide()
         TimeUpdater.Start()

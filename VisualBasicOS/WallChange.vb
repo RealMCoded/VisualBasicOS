@@ -71,7 +71,7 @@
     Private Sub WP4_SLC_CheckedChanged(sender As Object, e As EventArgs) Handles WP4_SLC.CheckedChanged
         OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
         OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
-        OS.Panel2.BackColor = Color.LightSkyBlue
+        OS.Panel2.BackColor = Color.DeepSkyBlue
         OS.Label2.Text = "DEF"
     End Sub
 End Class

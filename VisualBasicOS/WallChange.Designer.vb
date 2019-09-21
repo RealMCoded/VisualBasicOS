@@ -137,7 +137,7 @@ Partial Class WallChange
         '
         'WP1_COL
         '
-        Me.WP1_COL.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.WP1_COL.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.WP1_COL.Controls.Add(Me.WP1_ST)
         Me.WP1_COL.Location = New System.Drawing.Point(132, 91)
         Me.WP1_COL.Name = "WP1_COL"
