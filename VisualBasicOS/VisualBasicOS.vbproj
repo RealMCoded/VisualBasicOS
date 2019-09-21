@@ -138,12 +138,6 @@
     <Compile Include="Splash.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="STARTMEN.Designer.vb">
-      <DependentUpon>STARTMEN.vb</DependentUpon>
-    </Compile>
-    <Compile Include="STARTMEN.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="about.resx">
@@ -169,9 +163,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="STARTMEN.resx">
-      <DependentUpon>STARTMEN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WallChange.resx">
       <DependentUpon>WallChange.vb</DependentUpon>
