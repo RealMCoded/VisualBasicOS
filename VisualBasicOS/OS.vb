@@ -38,39 +38,6 @@
         Process.Start("https://discord.gg/sXwFzJj")
     End Sub
     'Discord! App Code Ends
-    Private Sub Transp_Toggle_CheckedChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs)
-        'If TrackBar1.Value = 0 Then
-        'Panel2.BackgroundImage = Image.FromFile(".\white-flowers.jpg")
-        'Panel2.BackgroundImageLayout = ImageLayout.Stretch
-        'Panel2.BackColor = Color.DarkSlateBlue
-        'End If
-        'If TrackBar1.Value = 1 Then
-        'Panel2.BackgroundImage = Image.FromFile(".\leaves.jpg")
-        'Panel2.BackgroundImageLayout = ImageLayout.Stretch
-        'Panel2.BackColor = Color.Green
-        'End If
-    End Sub
-
-    Private Sub ImgView_ICO_Click(sender As Object, e As EventArgs) Handles ImgView_ICO.Click
-        ImgView.Show()
-        'MsgBox("The app you are trying to locate 'imgview.vapp' does not exist.", MsgBoxStyle.Critical, "Error")
-        'ImgView_ICO.Hide()
-        'ImgView_LAB.Hide()
-        'MsgBox("The shortcut for 'imgview.vapp' has been deleted.", MsgBoxStyle.Exclamation, "Information")
-    End Sub
-
-    Private Sub ImgView_LAB_Click(sender As Object, e As EventArgs) Handles ImgView_LAB.Click
-        ImgView.Show()
-        'MsgBox("The app you are trying to locate 'imgview.vapp' does not exist.", MsgBoxStyle.Critical, "Error")
-        'ImgView_ICO.Hide()
-        'ImgView_LAB.Hide()
-        'MsgBox("The shortcut for 'imgview.vapp' has been deleted.", MsgBoxStyle.Exclamation, "Information")
-    End Sub
-
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Fact_TXT.Click
         Dim rn As Random
         Dim Troll As Integer
