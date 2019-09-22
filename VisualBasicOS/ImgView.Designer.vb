@@ -74,7 +74,7 @@ Partial Class ImgView
         Me.Controls.Add(Me.TrackBar1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ImgView"
-        Me.Text = "(Early Tester Mode) | Image Viewer for VBOS"
+        Me.Text = "Image Viewer for VBOS"
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

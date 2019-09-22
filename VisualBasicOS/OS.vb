@@ -19,15 +19,11 @@
         My.Computer.Audio.Play(".\assets\sounds\startup.wav")
         'Transp_Toggle.Hide()
         TimeUpdater.Start()
-        MsgBox("Welcome! You may notice some things aren't finished/Non Existant/Buggy. This is normal. This is a A Pre-Release also so expect some newer features to be buggy. Become a Early Tester to get more Builds before anyone else does!", MsgBoxStyle.Information, "Welcome To Visual Basic OS!")
+        MsgBox("Welcome! You may notice some things aren't finished/Non Existant/Buggy. This is normal. Become a Early Tester to get more Builds before anyone else does!", MsgBoxStyle.Information, "Welcome To Visual Basic OS!")
     End Sub
 
     Private Sub TimeUpdater_Tick(sender As Object, e As EventArgs) Handles TimeUpdater.Tick
         WinClock.Text = My.Computer.Clock.LocalTime
-    End Sub
-
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs)
-        MsgBox("@everyone", MsgBoxStyle.Critical, "Discord")
     End Sub
     'Discord! App code starts
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
@@ -46,7 +42,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is EARLY TEST PRE2 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
@@ -60,7 +56,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is EARLY TEST PRE2 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
@@ -89,5 +85,13 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         My.Computer.Audio.Stop()
+    End Sub
+
+    Private Sub ImgView_ICO_Click(sender As Object, e As EventArgs) Handles ImgView_ICO.Click
+        ImgView.Show()
+    End Sub
+
+    Private Sub ImgView_LAB_Click(sender As Object, e As EventArgs) Handles ImgView_LAB.Click
+        ImgView.Show()
     End Sub
 End Class
