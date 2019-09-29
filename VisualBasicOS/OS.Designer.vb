@@ -91,7 +91,7 @@ Partial Class OS
         Me.AMB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.AMB.Location = New System.Drawing.Point(3, 0)
         Me.AMB.Name = "AMB"
-        Me.AMB.Size = New System.Drawing.Size(134, 23)
+        Me.AMB.Size = New System.Drawing.Size(139, 23)
         Me.AMB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.AMB.TabIndex = 0
         Me.AMB.TabStop = False
