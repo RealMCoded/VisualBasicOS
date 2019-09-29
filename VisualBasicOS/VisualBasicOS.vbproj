@@ -86,10 +86,10 @@
     <Compile Include="about.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="assets\TTS.Designer.vb">
+    <Compile Include="TTS.Designer.vb">
       <DependentUpon>TTS.vb</DependentUpon>
     </Compile>
-    <Compile Include="assets\TTS.vb">
+    <Compile Include="TTS.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="crash-selc.Designer.vb">
@@ -161,7 +161,7 @@
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="assets\TTS.resx">
+    <EmbeddedResource Include="TTS.resx">
       <DependentUpon>TTS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="crash-selc.resx">
