@@ -26,6 +26,7 @@ Partial Class ImgView
         Me.TrackBar1 = New System.Windows.Forms.TrackBar()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -48,7 +49,7 @@ Partial Class ImgView
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(2, 46)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(450, 284)
+        Me.PictureBox1.Size = New System.Drawing.Size(450, 258)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
@@ -64,11 +65,21 @@ Partial Class ImgView
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "1/5"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(152, 310)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(131, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "/assets/misc/please1.png"
+        '
         'ImgView
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(451, 332)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TrackBar1)
@@ -85,4 +96,5 @@ Partial Class ImgView
     Friend WithEvents TrackBar1 As TrackBar
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
