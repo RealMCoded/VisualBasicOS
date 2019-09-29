@@ -68,9 +68,10 @@ Partial Class ImgView
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(152, 310)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(131, 309)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 13)
+        Me.Label2.Size = New System.Drawing.Size(199, 18)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "/assets/misc/please1.png"
         '
