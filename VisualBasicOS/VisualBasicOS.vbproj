@@ -86,6 +86,12 @@
     <Compile Include="about.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="crash-selc.Designer.vb">
+      <DependentUpon>crash-selc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="crash-selc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="secret.Designer.vb">
       <DependentUpon>secret.vb</DependentUpon>
     </Compile>
@@ -126,6 +132,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="uh-oh-screen.Designer.vb">
+      <DependentUpon>uh-oh-screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uh-oh-screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="WallChange.Designer.vb">
       <DependentUpon>WallChange.vb</DependentUpon>
     </Compile>
@@ -142,6 +154,9 @@
   <ItemGroup>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crash-selc.resx">
+      <DependentUpon>crash-selc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="secret.resx">
       <DependentUpon>secret.vb</DependentUpon>
@@ -163,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uh-oh-screen.resx">
+      <DependentUpon>uh-oh-screen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WallChange.resx">
       <DependentUpon>WallChange.vb</DependentUpon>
@@ -214,6 +232,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets\appicons\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

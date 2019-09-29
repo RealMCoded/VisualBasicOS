@@ -59,17 +59,17 @@ Partial Class about
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(187, 31)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version 0.1.0"
+        Me.Label2.Text = "Version 0.1.1"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(36, 277)
+        Me.Label3.Location = New System.Drawing.Point(22, 277)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(225, 31)
+        Me.Label3.Size = New System.Drawing.Size(272, 31)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Codename Exxa"
+        Me.Label3.Text = "(Early Tester Mode)"
         '
         'Label4
         '

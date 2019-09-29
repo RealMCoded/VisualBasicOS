@@ -19,7 +19,7 @@
         My.Computer.Audio.Play(".\assets\sounds\startup.wav")
         'Transp_Toggle.Hide()
         TimeUpdater.Start()
-        MsgBox("Welcome! You may notice some things aren't finished/Non Existant/Buggy. This is normal. Become a Early Tester to get more Builds before anyone else does!", MsgBoxStyle.Information, "Welcome To Visual Basic OS!")
+        'MsgBox("Welcome! You may notice some things aren't finished/Non Existant/Buggy. This is normal. Become a Early Tester to get more Builds before anyone else does!", MsgBoxStyle.Information, "Welcome To Visual Basic OS!")
     End Sub
 
     Private Sub TimeUpdater_Tick(sender As Object, e As EventArgs) Handles TimeUpdater.Tick
@@ -76,11 +76,13 @@
     End Sub
 
     Private Sub PictureBox2_Click_2(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        My.Computer.Audio.Play("")
+        'My.Computer.Audio.Play("")
+        crash_selc.Show()
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        My.Computer.Audio.Play("")
+        'My.Computer.Audio.Play("")
+        crash_selc.Show()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -93,5 +95,13 @@
 
     Private Sub ImgView_LAB_Click(sender As Object, e As EventArgs) Handles ImgView_LAB.Click
         ImgView.Show()
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+        MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
     End Sub
 End Class

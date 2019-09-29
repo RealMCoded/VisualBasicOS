@@ -45,6 +45,8 @@ Partial Class OS
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TimeUpdater = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -53,6 +55,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -98,6 +101,8 @@ Partial Class OS
         Me.Panel2.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.PictureBox4)
         Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Controls.Add(Me.Label6)
@@ -279,6 +284,29 @@ Partial Class OS
         'TimeUpdater
         '
         '
+        'Label8
+        '
+        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.White
+        Me.Label8.Location = New System.Drawing.Point(669, 299)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(48, 16)
+        Me.Label8.TabIndex = 20
+        Me.Label8.Text = "Trash"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(667, 246)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 19
+        Me.PictureBox4.TabStop = False
+        '
         'OS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -289,7 +317,7 @@ Partial Class OS
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(765, 451)
         Me.Name = "OS"
-        Me.Text = "Visual Basic OS"
+        Me.Text = "(Early Tester Mode) Visual Basic OS"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).EndInit()
@@ -300,6 +328,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -325,4 +354,6 @@ Partial Class OS
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents PictureBox4 As PictureBox
 End Class
