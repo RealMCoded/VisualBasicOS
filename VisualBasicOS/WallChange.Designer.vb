@@ -75,7 +75,6 @@ Partial Class WallChange
         Me.GroupBox1.Controls.Add(Me.WP2_IMG)
         Me.GroupBox1.Controls.Add(Me.WP1_IMG)
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
-        Me.GroupBox1.Controls.Add(Me.WP2_SLT)
         Me.GroupBox1.Controls.Add(Me.WP1_SLT)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 41)
         Me.GroupBox1.Name = "GroupBox1"
@@ -199,7 +198,7 @@ Partial Class WallChange
         'WP2_SLT
         '
         Me.WP2_SLT.AutoSize = True
-        Me.WP2_SLT.Location = New System.Drawing.Point(328, 131)
+        Me.WP2_SLT.Location = New System.Drawing.Point(118, 18)
         Me.WP2_SLT.Name = "WP2_SLT"
         Me.WP2_SLT.Size = New System.Drawing.Size(79, 17)
         Me.WP2_SLT.TabIndex = 1
@@ -254,6 +253,7 @@ Partial Class WallChange
         '
         Me.GroupBox3.Controls.Add(Me.CheckBox2)
         Me.GroupBox3.Controls.Add(Me.CheckBox1)
+        Me.GroupBox3.Controls.Add(Me.WP2_SLT)
         Me.GroupBox3.Location = New System.Drawing.Point(314, 201)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(232, 71)
