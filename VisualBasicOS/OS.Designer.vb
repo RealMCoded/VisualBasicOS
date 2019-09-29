@@ -199,11 +199,11 @@ Partial Class OS
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(98, 79)
+        Me.Label6.Location = New System.Drawing.Point(103, 79)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(82, 16)
+        Me.Label6.Size = New System.Drawing.Size(64, 16)
         Me.Label6.TabIndex = 16
-        Me.Label6.Text = "CRASH IT!"
+        Me.Label6.Text = "Crash It!"
         '
         'PictureBox2
         '
