@@ -1,23 +1,18 @@
 ﻿Public Class OS
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles AMB.Click
         MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
-        'Transp_Toggle.Show()
-        'MsgBox("You can now Change Transparancy!", MsgBoxStyle.OkOnly, "A Super Secret Setting is now Enabled :D")
-        'STARTMEN.Show()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label2.Hide()
         Label5.Hide()
         Label7.Hide()
-        'Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
         Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
         AMB.BackgroundImageLayout = ImageLayout.Stretch
         Panel2.BackColor = Color.DeepSkyBlue
         My.Computer.Audio.Play(".\assets\sounds\startup.wav")
-        'Transp_Toggle.Hide()
         TimeUpdater.Start()
         'MsgBox("Welcome! You may notice some things aren't finished/Non Existant/Buggy. This is normal. Become a Early Tester to get more Builds before anyone else does!", MsgBoxStyle.Information, "Welcome To Visual Basic OS!")
     End Sub
@@ -42,7 +37,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is EARLY TEST 0.1.1", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
@@ -56,14 +51,13 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is 0.1.0", MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is EARLY TEST 0.1.1", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-        'WallChange.Show()
         about.Show()
     End Sub
 
@@ -76,12 +70,10 @@
     End Sub
 
     Private Sub PictureBox2_Click_2(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        'My.Computer.Audio.Play("")
         crash_selc.Show()
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        'My.Computer.Audio.Play("")
         crash_selc.Show()
     End Sub
 
