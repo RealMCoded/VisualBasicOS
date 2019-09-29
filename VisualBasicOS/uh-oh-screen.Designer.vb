@@ -25,6 +25,7 @@ Partial Class uh_oh_screen
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -49,12 +50,21 @@ Partial Class uh_oh_screen
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(171, 169)
+        Me.Button1.Location = New System.Drawing.Point(77, 169)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(120, 22)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Resume My Session!"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(274, 169)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(160, 23)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "Abandon my current session."
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'uh_oh_screen
         '
@@ -62,6 +72,7 @@ Partial Class uh_oh_screen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.ClientSize = New System.Drawing.Size(495, 213)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -77,4 +88,5 @@ Partial Class uh_oh_screen
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
