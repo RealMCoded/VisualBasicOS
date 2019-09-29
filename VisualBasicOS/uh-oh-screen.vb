@@ -1,10 +1,12 @@
 ﻿Public Class uh_oh_screen
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         OS.Show()
+        MsgBox("Sesson Resored!", MsgBoxStyle.Information, "Info")
         Me.Close()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        MsgBox("Sesson abandoned :(", MsgBoxStyle.Information, "Info")
         OS.Close()
     End Sub
 
