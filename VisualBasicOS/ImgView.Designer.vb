@@ -35,7 +35,7 @@ Partial Class ImgView
         Me.TrackBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TrackBar1.Location = New System.Drawing.Point(2, 12)
-        Me.TrackBar1.Maximum = 3
+        Me.TrackBar1.Maximum = 4
         Me.TrackBar1.Name = "TrackBar1"
         Me.TrackBar1.Size = New System.Drawing.Size(450, 45)
         Me.TrackBar1.TabIndex = 1
@@ -62,7 +62,7 @@ Partial Class ImgView
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(24, 13)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "1/4"
+        Me.Label1.Text = "1/5"
         '
         'ImgView
         '

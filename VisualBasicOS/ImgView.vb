@@ -6,16 +6,19 @@
     Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
         If TrackBar1.Value = 0 Then
             PictureBox1.Image = Image.FromFile(".\assets\misc\please1.png")
-            Label1.Text = "1/4"
+            Label1.Text = "1/5"
         ElseIf TrackBar1.Value = 1 Then
             PictureBox1.Image = Image.FromFile(".\assets\wallpapers\leaves.jpg")
-            Label1.Text = "2/4"
+            Label1.Text = "2/5"
         ElseIf TrackBar1.Value = 2 Then
             PictureBox1.Image = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
-            Label1.Text = "3/4"
+            Label1.Text = "3/5"
         ElseIf TrackBar1.Value = 3 Then
             PictureBox1.Image = Image.FromFile(".\assets\wallpapers\Sand-Dune.jpg")
-            Label1.Text = "4/4"
+            Label1.Text = "4/5"
+        ElseIf TrackBar1.Value = 4 Then
+            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\default.jpg")
+            Label1.Text = "5/5"
         End If
     End Sub
 
