@@ -104,4 +104,12 @@
     Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
         MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
     End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+        TTS.Show()
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+        TTS.Show()
+    End Sub
 End Class
