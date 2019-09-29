@@ -343,6 +343,7 @@ Partial Class OS
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(765, 451)
         Me.Name = "OS"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "(Early Tester Mode) Visual Basic OS"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
