@@ -31,6 +31,7 @@ Partial Class PASSCODE
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -89,9 +90,9 @@ Partial Class PASSCODE
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(16, 343)
+        Me.Button1.Location = New System.Drawing.Point(12, 343)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(281, 23)
+        Me.Button1.Size = New System.Drawing.Size(146, 23)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = True
@@ -105,11 +106,21 @@ Partial Class PASSCODE
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Status: Waiting for Passcode..."
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(168, 343)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(130, 23)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Forgot Passcode"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'PASSCODE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(309, 378)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -136,4 +147,5 @@ Partial Class PASSCODE
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button2 As Button
 End Class
