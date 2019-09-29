@@ -208,6 +208,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\misc\AppMenuButton-old.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\misc\AppMenuButton.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
