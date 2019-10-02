@@ -49,6 +49,8 @@ Partial Class OS
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TimeUpdater = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -59,6 +61,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -117,6 +120,8 @@ Partial Class OS
         Me.Panel2.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel2.Controls.Add(Me.Label10)
+        Me.Panel2.Controls.Add(Me.PictureBox6)
         Me.Panel2.Controls.Add(Me.Label9)
         Me.Panel2.Controls.Add(Me.PictureBox5)
         Me.Panel2.Controls.Add(Me.Label8)
@@ -228,7 +233,7 @@ Partial Class OS
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(25, 284)
+        Me.PictureBox1.Location = New System.Drawing.Point(25, 299)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -240,11 +245,11 @@ Partial Class OS
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(3, 337)
+        Me.Label4.Location = New System.Drawing.Point(17, 352)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(116, 16)
+        Me.Label4.Size = New System.Drawing.Size(64, 32)
         Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Theme Settings"
+        Me.Label4.Text = "Theme " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Settings"
         '
         'Label2
         '
@@ -271,11 +276,11 @@ Partial Class OS
         Me.ImgView_LAB.AutoSize = True
         Me.ImgView_LAB.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ImgView_LAB.ForeColor = System.Drawing.Color.White
-        Me.ImgView_LAB.Location = New System.Drawing.Point(7, 255)
+        Me.ImgView_LAB.Location = New System.Drawing.Point(22, 255)
         Me.ImgView_LAB.Name = "ImgView_LAB"
-        Me.ImgView_LAB.Size = New System.Drawing.Size(102, 16)
+        Me.ImgView_LAB.Size = New System.Drawing.Size(55, 32)
         Me.ImgView_LAB.TabIndex = 9
-        Me.ImgView_LAB.Text = "Image Viewer"
+        Me.ImgView_LAB.Text = "Image " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Viewer"
         '
         'ImgView_ICO
         '
@@ -335,6 +340,27 @@ Partial Class OS
         'TimeUpdater
         '
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.White
+        Me.Label10.Location = New System.Drawing.Point(83, 255)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(93, 16)
+        Me.Label10.TabIndex = 24
+        Me.Label10.Text = "VBOS Music"
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(106, 202)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 23
+        Me.PictureBox6.TabStop = False
+        '
         'OS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -359,6 +385,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -388,4 +415,6 @@ Partial Class OS
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents PictureBox6 As PictureBox
 End Class

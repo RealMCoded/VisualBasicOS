@@ -86,6 +86,12 @@
     <Compile Include="about.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Music.Designer.vb">
+      <DependentUpon>Music.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Music.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Trashcan.Designer.vb">
       <DependentUpon>Trashcan.vb</DependentUpon>
     </Compile>
@@ -166,6 +172,9 @@
   <ItemGroup>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Music.resx">
+      <DependentUpon>Music.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trashcan.resx">
       <DependentUpon>Trashcan.vb</DependentUpon>

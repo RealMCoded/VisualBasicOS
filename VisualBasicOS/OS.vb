@@ -106,4 +106,8 @@
     Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
         TTS.Show()
     End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+        Music.Show()
+    End Sub
 End Class
