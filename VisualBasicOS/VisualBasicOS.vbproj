@@ -230,7 +230,7 @@
     <Content Include="assets\sounds\error.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\sounds\pizza.wav">
+    <Content Include="assets\sounds\music\pizza.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\sounds\trash.wav">
