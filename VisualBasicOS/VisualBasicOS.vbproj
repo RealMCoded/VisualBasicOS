@@ -80,65 +80,65 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="forms\about.Designer.vb">
+    <Compile Include="about.Designer.vb">
       <DependentUpon>about.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\about.vb">
+    <Compile Include="about.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Music.Designer.vb">
+    <Compile Include="Music.Designer.vb">
       <DependentUpon>Music.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\Music.vb">
+    <Compile Include="Music.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\MusList.Designer.vb">
+    <Compile Include="MusList.Designer.vb">
       <DependentUpon>MusList.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\MusList.vb">
+    <Compile Include="MusList.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Trashcan.Designer.vb">
+    <Compile Include="Trashcan.Designer.vb">
       <DependentUpon>Trashcan.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\Trashcan.vb">
+    <Compile Include="Trashcan.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\TTS.Designer.vb">
+    <Compile Include="TTS.Designer.vb">
       <DependentUpon>TTS.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\TTS.vb">
+    <Compile Include="TTS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\crash-selc.Designer.vb">
+    <Compile Include="crash-selc.Designer.vb">
       <DependentUpon>crash-selc.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\crash-selc.vb">
+    <Compile Include="crash-selc.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\secret.Designer.vb">
+    <Compile Include="secret.Designer.vb">
       <DependentUpon>secret.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\secret.vb">
+    <Compile Include="secret.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\PASSCODE.Designer.vb">
+    <Compile Include="PASSCODE.Designer.vb">
       <DependentUpon>PASSCODE.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\PASSCODE.vb">
+    <Compile Include="PASSCODE.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\OS.vb">
+    <Compile Include="OS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\OS.Designer.vb">
+    <Compile Include="OS.Designer.vb">
       <DependentUpon>OS.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\ImgView.Designer.vb">
+    <Compile Include="ImgView.Designer.vb">
       <DependentUpon>ImgView.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\ImgView.vb">
+    <Compile Include="ImgView.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -156,54 +156,54 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="forms\uh-oh-screen.Designer.vb">
+    <Compile Include="uh-oh-screen.Designer.vb">
       <DependentUpon>uh-oh-screen.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\uh-oh-screen.vb">
+    <Compile Include="uh-oh-screen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\WallChange.Designer.vb">
+    <Compile Include="WallChange.Designer.vb">
       <DependentUpon>WallChange.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\WallChange.vb">
+    <Compile Include="WallChange.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Splash.Designer.vb">
+    <Compile Include="Splash.Designer.vb">
       <DependentUpon>Splash.vb</DependentUpon>
     </Compile>
-    <Compile Include="forms\Splash.vb">
+    <Compile Include="Splash.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="forms\about.resx">
+    <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\Music.resx">
+    <EmbeddedResource Include="Music.resx">
       <DependentUpon>Music.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\MusList.resx">
+    <EmbeddedResource Include="MusList.resx">
       <DependentUpon>MusList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\Trashcan.resx">
+    <EmbeddedResource Include="Trashcan.resx">
       <DependentUpon>Trashcan.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\TTS.resx">
+    <EmbeddedResource Include="TTS.resx">
       <DependentUpon>TTS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\crash-selc.resx">
+    <EmbeddedResource Include="crash-selc.resx">
       <DependentUpon>crash-selc.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\secret.resx">
+    <EmbeddedResource Include="secret.resx">
       <DependentUpon>secret.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\PASSCODE.resx">
+    <EmbeddedResource Include="PASSCODE.resx">
       <DependentUpon>PASSCODE.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\OS.resx">
+    <EmbeddedResource Include="OS.resx">
       <DependentUpon>OS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\ImgView.resx">
+    <EmbeddedResource Include="ImgView.resx">
       <DependentUpon>ImgView.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -212,13 +212,13 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\Splash.resx">
+    <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\uh-oh-screen.resx">
+    <EmbeddedResource Include="uh-oh-screen.resx">
       <DependentUpon>uh-oh-screen.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\WallChange.resx">
+    <EmbeddedResource Include="WallChange.resx">
       <DependentUpon>WallChange.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
