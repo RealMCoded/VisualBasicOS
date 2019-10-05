@@ -244,7 +244,9 @@
     <Content Include="assets\misc\please1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\instructions-on-modding.txt" />
+    <Content Include="assets\modding-instructions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\sounds\error.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
