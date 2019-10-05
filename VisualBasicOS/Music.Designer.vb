@@ -98,6 +98,9 @@ Partial Class Music
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(297, 166)
+        Me.MinimumSize = New System.Drawing.Size(297, 166)
         Me.Name = "Music"
         Me.Text = "VBOS music"
         Me.ResumeLayout(False)

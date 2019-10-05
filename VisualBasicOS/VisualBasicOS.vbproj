@@ -92,6 +92,12 @@
     <Compile Include="Music.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MusList.Designer.vb">
+      <DependentUpon>MusList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MusList.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Trashcan.Designer.vb">
       <DependentUpon>Trashcan.vb</DependentUpon>
     </Compile>
@@ -176,6 +182,9 @@
     <EmbeddedResource Include="Music.resx">
       <DependentUpon>Music.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MusList.resx">
+      <DependentUpon>MusList.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Trashcan.resx">
       <DependentUpon>Trashcan.vb</DependentUpon>
     </EmbeddedResource>
@@ -240,6 +249,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\sounds\music\pizza.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\music\Slot1.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\music\Slot2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\music\Slot3.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\sounds\trash.wav">
