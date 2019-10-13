@@ -104,6 +104,12 @@
     <Compile Include="Trashcan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TTS-LOAD.Designer.vb">
+      <DependentUpon>TTS-LOAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TTS-LOAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TTS.Designer.vb">
       <DependentUpon>TTS.vb</DependentUpon>
     </Compile>
@@ -187,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Trashcan.resx">
       <DependentUpon>Trashcan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTS-LOAD.resx">
+      <DependentUpon>TTS-LOAD.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TTS.resx">
       <DependentUpon>TTS.vb</DependentUpon>

@@ -6,8 +6,10 @@
     End Sub
 
     Private Sub TTS_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        TTS_LOADMSG.Show()
         Dim SAPI
         SAPI = CreateObject("SAPI.spvoice")
         SAPI.Speak(" ")
+        TTS_LOADMSG.Hide()
     End Sub
 End Class
