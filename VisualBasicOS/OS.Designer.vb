@@ -318,11 +318,11 @@ Partial Class OS
         Me.Fact_TXT.AutoSize = True
         Me.Fact_TXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Fact_TXT.ForeColor = System.Drawing.Color.White
-        Me.Fact_TXT.Location = New System.Drawing.Point(0, 172)
+        Me.Fact_TXT.Location = New System.Drawing.Point(17, 172)
         Me.Fact_TXT.Name = "Fact_TXT"
-        Me.Fact_TXT.Size = New System.Drawing.Size(89, 16)
+        Me.Fact_TXT.Size = New System.Drawing.Size(68, 16)
         Me.Fact_TXT.TabIndex = 7
-        Me.Fact_TXT.Text = "Fun Fact (3)"
+        Me.Fact_TXT.Text = "Facts (3)"
         '
         'Label3
         '
