@@ -86,6 +86,7 @@
     <Compile Include="about.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Music.Designer.vb">
       <DependentUpon>Music.vb</DependentUpon>
     </Compile>
