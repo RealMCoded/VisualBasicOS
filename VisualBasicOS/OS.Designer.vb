@@ -331,9 +331,9 @@ Partial Class OS
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(18, 79)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(66, 16)
+        Me.Label3.Size = New System.Drawing.Size(62, 32)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Discord!"
+        Me.Label3.Text = "Discord" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "  Invite"
         '
         'PictureBox3
         '
