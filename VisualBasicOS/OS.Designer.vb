@@ -268,9 +268,9 @@ Partial Class OS
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(17, 352)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 32)
+        Me.Label4.Size = New System.Drawing.Size(64, 16)
         Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Theme " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Settings"
+        Me.Label4.Text = "Settings"
         '
         'Label2
         '

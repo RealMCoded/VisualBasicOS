@@ -99,6 +99,12 @@
     <Compile Include="MusList.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SettingsShortcuts.Designer.vb">
+      <DependentUpon>SettingsShortcuts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsShortcuts.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Trashcan.Designer.vb">
       <DependentUpon>Trashcan.vb</DependentUpon>
     </Compile>
@@ -191,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MusList.resx">
       <DependentUpon>MusList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsShortcuts.resx">
+      <DependentUpon>SettingsShortcuts.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trashcan.resx">
       <DependentUpon>Trashcan.vb</DependentUpon>
