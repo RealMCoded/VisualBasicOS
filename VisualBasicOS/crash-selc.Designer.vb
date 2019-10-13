@@ -62,7 +62,9 @@ Partial Class crash_selc
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "crash_selc"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "crash_selc"
         Me.ResumeLayout(False)
         Me.PerformLayout()
