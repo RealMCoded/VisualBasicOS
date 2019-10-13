@@ -51,7 +51,7 @@ Partial Class Music
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(194, 80)
+        Me.Button1.Location = New System.Drawing.Point(106, 80)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class Music
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(104, 80)
+        Me.Button2.Location = New System.Drawing.Point(15, 80)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 3
@@ -79,7 +79,7 @@ Partial Class Music
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(15, 80)
+        Me.Button3.Location = New System.Drawing.Point(196, 80)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(73, 23)
         Me.Button3.TabIndex = 5
@@ -102,7 +102,7 @@ Partial Class Music
         Me.MaximumSize = New System.Drawing.Size(297, 166)
         Me.MinimumSize = New System.Drawing.Size(297, 166)
         Me.Name = "Music"
-        Me.Text = "VBOS music"
+        Me.Text = "VBOS Music"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
