@@ -357,6 +357,7 @@ Partial Class OS
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Visual Basic OS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Codename Exxa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Work in progress :)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(C)2019 MCoded"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ToolTip1.SetToolTip(Me.Label1, "Click for more info")
         '
         'TimeUpdater
         '
