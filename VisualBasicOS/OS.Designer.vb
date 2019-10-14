@@ -83,7 +83,7 @@ Partial Class OS
         Me.WinClock.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.WinClock.AutoSize = True
         Me.WinClock.ForeColor = System.Drawing.Color.White
-        Me.WinClock.Location = New System.Drawing.Point(600, 6)
+        Me.WinClock.Location = New System.Drawing.Point(591, 5)
         Me.WinClock.Name = "WinClock"
         Me.WinClock.Size = New System.Drawing.Size(34, 13)
         Me.WinClock.TabIndex = 1

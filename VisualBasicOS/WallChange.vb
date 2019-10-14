@@ -18,10 +18,11 @@
     End Sub
 
     Private Sub WallChange_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        WP2_SLT.Hide()
+        'WP2_SLT.Hide()
         WP1_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
         WP2_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
         PictureBox3.BackgroundImage = Image.FromFile(".\assets\wallpapers\leaves.jpg")
+        PictureBox1.BackgroundImage = Image.FromFile(".\assets\wallpapers\Sand-Dune.jpg")
         OS.Label2.Show()
         If OS.Label2.Text = "FLW" Then
             WP1_SLT.Checked = True
