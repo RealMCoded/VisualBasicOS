@@ -56,8 +56,9 @@ Partial Class secret
         Me.ClientSize = New System.Drawing.Size(291, 276)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "secret"
-        Me.Text = "secret"
+        Me.Text = """Super"" Secret Place"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
