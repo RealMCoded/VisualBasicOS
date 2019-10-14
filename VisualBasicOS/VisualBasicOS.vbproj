@@ -123,12 +123,6 @@
     <Compile Include="TTS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="crash-selc.Designer.vb">
-      <DependentUpon>crash-selc.vb</DependentUpon>
-    </Compile>
-    <Compile Include="crash-selc.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="secret.Designer.vb">
       <DependentUpon>secret.vb</DependentUpon>
     </Compile>
@@ -209,9 +203,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TTS.resx">
       <DependentUpon>TTS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="crash-selc.resx">
-      <DependentUpon>crash-selc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="secret.resx">
       <DependentUpon>secret.vb</DependentUpon>
