@@ -1,7 +1,7 @@
 ﻿Public Class uh_oh_screen
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         OS.Show()
-        MsgBox("Sesson Resored!", MsgBoxStyle.Information, "Info")
+        MsgBox("Session Restored", MsgBoxStyle.Information, "Info")
         Me.Close()
     End Sub
 
