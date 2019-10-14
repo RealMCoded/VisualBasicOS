@@ -434,6 +434,7 @@ Partial Class WallChange
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(574, 464)
         Me.MinimumSize = New System.Drawing.Size(574, 323)
         Me.Name = "WallChange"
         Me.Text = "Theme Settings"

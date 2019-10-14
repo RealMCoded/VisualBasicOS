@@ -69,7 +69,10 @@ Partial Class SettingsShortcuts
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label4)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(576, 384)
+        Me.MinimumSize = New System.Drawing.Size(576, 384)
         Me.Name = "SettingsShortcuts"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Visual Basic OS Settings"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
