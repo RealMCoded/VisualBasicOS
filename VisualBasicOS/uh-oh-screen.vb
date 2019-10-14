@@ -6,7 +6,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        MsgBox("Sesson abandoned :(", MsgBoxStyle.Information, "Info")
+        MsgBox("Session abandoned :(", MsgBoxStyle.Information, "Info")
         OS.Close()
     End Sub
 
