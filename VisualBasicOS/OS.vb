@@ -71,11 +71,15 @@
     End Sub
 
     Private Sub PictureBox2_Click_2(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        crash_selc.Show()
+        'crash_selc.Show()
+        Me.Hide()
+        uh_oh_screen.Show()
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        crash_selc.Show()
+        'crash_selc.Show()
+        Me.Hide()
+        uh_oh_screen.Show()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

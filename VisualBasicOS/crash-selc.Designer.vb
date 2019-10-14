@@ -47,9 +47,9 @@ Partial Class crash_selc
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(74, 30)
+        Me.Button2.Location = New System.Drawing.Point(74, 27)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(48, 20)
+        Me.Button2.Size = New System.Drawing.Size(48, 23)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "GSoD"
         Me.Button2.UseVisualStyleBackColor = True
