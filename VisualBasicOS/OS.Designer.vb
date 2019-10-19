@@ -83,7 +83,7 @@ Partial Class OS
         Me.WinClock.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.WinClock.AutoSize = True
         Me.WinClock.ForeColor = System.Drawing.Color.White
-        Me.WinClock.Location = New System.Drawing.Point(591, 5)
+        Me.WinClock.Location = New System.Drawing.Point(586, 5)
         Me.WinClock.Name = "WinClock"
         Me.WinClock.Size = New System.Drawing.Size(34, 13)
         Me.WinClock.TabIndex = 1
@@ -105,9 +105,9 @@ Partial Class OS
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(724, 0)
+        Me.Button1.Location = New System.Drawing.Point(725, 1)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(27, 24)
+        Me.Button1.Size = New System.Drawing.Size(23, 21)
         Me.Button1.TabIndex = 17
         Me.ToolTip1.SetToolTip(Me.Button1, "Stops All Audio That is currently Playing. (In The OS Enviorment.)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.Button1.UseVisualStyleBackColor = True
@@ -214,7 +214,7 @@ Partial Class OS
         '
         Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(720, 44)
+        Me.Label7.Location = New System.Drawing.Point(709, 44)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(33, 13)
         Me.Label7.TabIndex = 18
@@ -245,7 +245,7 @@ Partial Class OS
         '
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(716, 26)
+        Me.Label5.Location = New System.Drawing.Point(705, 26)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(34, 13)
         Me.Label5.TabIndex = 14
@@ -276,7 +276,7 @@ Partial Class OS
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(720, 10)
+        Me.Label2.Location = New System.Drawing.Point(709, 10)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(28, 13)
         Me.Label2.TabIndex = 11
