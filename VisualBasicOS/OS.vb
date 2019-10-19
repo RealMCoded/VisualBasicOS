@@ -71,13 +71,11 @@
     End Sub
 
     Private Sub PictureBox2_Click_2(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        'crash_selc.Show()
         Me.Hide()
         uh_oh_screen.Show()
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        'crash_selc.Show()
         Me.Hide()
         uh_oh_screen.Show()
     End Sub
@@ -95,12 +93,10 @@
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
-        'MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
         Trashcan.Show()
     End Sub
 
     Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-        'MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
         Trashcan.Show()
     End Sub
 
@@ -114,17 +110,5 @@
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
         Music.Show()
-    End Sub
-
-    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-
-    End Sub
-
-    Private Sub Label2_Click_1(sender As Object, e As EventArgs) Handles Label2.Click
-
     End Sub
 End Class
