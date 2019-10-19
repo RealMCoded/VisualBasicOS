@@ -1,7 +1,7 @@
 ﻿Public Class WallChange
     Private Sub WP1_SLT_CheckedChanged(sender As Object, e As EventArgs) Handles WP1_SLT.CheckedChanged
         If WP1_SLT.Checked = True Then
-            OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
+            OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.png")
             OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
             OS.Panel2.BackColor = Color.DodgerBlue
             OS.Label2.Text = "FLW"
@@ -10,7 +10,7 @@
 
     Private Sub WP2_SLT_CheckedChanged(sender As Object, e As EventArgs) Handles WP2_SLT.CheckedChanged
         If WP2_SLT.Checked = True Then
-            OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\Sand-Dune.jpg")
+            OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\Sand-Dune.png")
             OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
             OS.Panel2.BackColor = Color.Tan
             OS.Label2.Text = "SND"
@@ -19,10 +19,10 @@
 
     Private Sub WallChange_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'WP2_SLT.Hide()
-        WP1_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
-        WP2_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
-        PictureBox3.BackgroundImage = Image.FromFile(".\assets\wallpapers\leaves.jpg")
-        PictureBox1.BackgroundImage = Image.FromFile(".\assets\wallpapers\Sand-Dune.jpg")
+        WP1_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.png")
+        WP2_IMG.BackgroundImage = Image.FromFile(".\assets\wallpapers\white-flowers.png")
+        PictureBox3.BackgroundImage = Image.FromFile(".\assets\wallpapers\leaves.png")
+        PictureBox1.BackgroundImage = Image.FromFile(".\assets\wallpapers\Sand-Dune.png")
         OS.Label2.Show()
         If OS.Label2.Text = "FLW" Then
             WP1_SLT.Checked = True
@@ -44,7 +44,7 @@
     End Sub
 
     Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton3.CheckedChanged
-        OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\leaves.jpg")
+        OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\leaves.png")
         OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
         OS.Panel2.BackColor = Color.Green
         OS.Label2.Text = "LVE"
@@ -70,7 +70,7 @@
     End Sub
 
     Private Sub WP4_SLC_CheckedChanged(sender As Object, e As EventArgs) Handles WP4_SLC.CheckedChanged
-        OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.jpg")
+        OS.Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.png")
         OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
         OS.Panel2.BackColor = Color.DeepSkyBlue
         OS.Label2.Text = "DEF"
