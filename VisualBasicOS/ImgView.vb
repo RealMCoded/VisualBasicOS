@@ -9,20 +9,20 @@
             Label2.Text = ".\assets\misc\please1.png"
             Label1.Text = "1/5"
         ElseIf TrackBar1.Value = 1 Then
-            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\leaves.jpg")
-            Label2.Text = ".\assets\wallpapers\leaves.jpg"
+            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\leaves.png")
+            Label2.Text = ".\assets\wallpapers\leaves.png"
             Label1.Text = "2/5"
         ElseIf TrackBar1.Value = 2 Then
-            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\white-flowers.jpg")
-            Label2.Text = ".\assets\wallpapers\white-flowers.jpg"
+            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\white-flowers.png")
+            Label2.Text = ".\assets\wallpapers\white-flowers.png"
             Label1.Text = "3/5"
         ElseIf TrackBar1.Value = 3 Then
-            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\Sand-Dune.jpg")
-            Label2.Text = ".\assets\wallpapers\Sand-Dune.jpg"
+            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\Sand-Dune.png")
+            Label2.Text = ".\assets\wallpapers\Sand-Dune.png"
             Label1.Text = "4/5"
         ElseIf TrackBar1.Value = 4 Then
-            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\default.jpg")
-            Label2.Text = ".\assets\wallpapers\default.jpg"
+            PictureBox1.Image = Image.FromFile(".\assets\wallpapers\default.png")
+            Label2.Text = ".\assets\wallpapers\default.png"
             Label1.Text = "5/5"
         End If
     End Sub
