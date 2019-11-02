@@ -2,6 +2,7 @@
     Private Sub About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox1.BackgroundImage = Image.FromFile(".\assets\misc\Splash.png")
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        Label2.Text = "Version " + OS.Label11.Text
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click

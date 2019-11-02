@@ -60,11 +60,13 @@
             OS.Label2.Show()
             OS.Label5.Show()
             OS.Label7.Show()
+            OS.Label11.Show()
             OS.Label5.Text = "D-YES"
         Else
             OS.Label2.Hide()
             OS.Label5.Hide()
             OS.Label7.Hide()
+            OS.Label11.Hide()
             OS.Label5.Text = "D-NO"
         End If
     End Sub
