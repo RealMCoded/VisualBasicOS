@@ -123,4 +123,8 @@
             MsgBox("Langue Changer Au Anglais.", MsgBoxStyle.Information, "Language Switcher (BETA)")
         End If
     End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        DISPLAY2.Show()
+    End Sub
 End Class
