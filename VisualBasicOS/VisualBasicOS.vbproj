@@ -266,9 +266,6 @@
     <Content Include="assets\misc\AppMenuButton.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\misc\please1.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="assets\misc\Sidebar.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
