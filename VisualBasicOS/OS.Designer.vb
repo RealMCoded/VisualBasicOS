@@ -500,11 +500,11 @@ Partial Class OS
         Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(711, 323)
+        Me.Label18.Location = New System.Drawing.Point(679, 314)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(102, 36)
+        Me.Label18.Size = New System.Drawing.Size(140, 54)
         Me.Label18.TabIndex = 34
-        Me.Label18.Text = "Click to close " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the sidebar!"
+        Me.Label18.Text = "Click the sidebar to " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to close the sidebar!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(same for opening)"
         '
         'OS
         '
