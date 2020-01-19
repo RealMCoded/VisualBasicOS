@@ -437,11 +437,11 @@ Partial Class OS
         '
         Me.Label14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(596, 98)
+        Me.Label14.Location = New System.Drawing.Point(618, 98)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(69, 13)
+        Me.Label14.Size = New System.Drawing.Size(45, 13)
         Me.Label14.TabIndex = 31
-        Me.Label14.Text = "Menu-Closed"
+        Me.Label14.Text = "M-Close"
         '
         'Label15
         '

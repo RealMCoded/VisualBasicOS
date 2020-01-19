@@ -1,6 +1,13 @@
 ﻿Public Class OS
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles AMB.Click
-        MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
+        'MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
+        If Label14.Text = "M-Close" Then
+            Panel3.Show()
+            Label14.Text = "M-Open"
+        ElseIf Label14.Text = "M-Open" Then
+            Panel3.Hide()
+            Label14.Text = "M-Close"
+        End If
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
