@@ -26,9 +26,10 @@ Partial Class OS
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OS))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.WinClock = New System.Windows.Forms.Label()
-        Me.AMB = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TimeUpdater = New System.Windows.Forms.Timer(Me.components)
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Sidebar = New System.Windows.Forms.PictureBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
@@ -50,12 +51,12 @@ Partial Class OS
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TimeUpdater = New System.Windows.Forms.Timer(Me.components)
-        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.AMB = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
-        CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
+        CType(Me.Sidebar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +65,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -92,28 +93,8 @@ Partial Class OS
         Me.WinClock.TabIndex = 1
         Me.WinClock.Text = "Clock"
         '
-        'AMB
+        'TimeUpdater
         '
-        Me.AMB.BackgroundImage = CType(resources.GetObject("AMB.BackgroundImage"), System.Drawing.Image)
-        Me.AMB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.AMB.Location = New System.Drawing.Point(3, 0)
-        Me.AMB.Name = "AMB"
-        Me.AMB.Size = New System.Drawing.Size(139, 23)
-        Me.AMB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.AMB.TabIndex = 0
-        Me.AMB.TabStop = False
-        '
-        'Button1
-        '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(801, 1)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(23, 21)
-        Me.Button1.TabIndex = 17
-        Me.ToolTip1.SetToolTip(Me.Button1, "Stops All Audio That is currently Playing. (In The OS Enviorment.)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -123,7 +104,8 @@ Partial Class OS
         Me.Panel2.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), System.Drawing.Image)
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel2.Controls.Add(Me.PictureBox7)
+        Me.Panel2.Controls.Add(Me.Label12)
+        Me.Panel2.Controls.Add(Me.Sidebar)
         Me.Panel2.Controls.Add(Me.Label11)
         Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Controls.Add(Me.PictureBox6)
@@ -149,6 +131,20 @@ Partial Class OS
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(827, 455)
         Me.Panel2.TabIndex = 1
+        '
+        'Sidebar
+        '
+        Me.Sidebar.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Sidebar.BackColor = System.Drawing.Color.Transparent
+        Me.Sidebar.BackgroundImage = CType(resources.GetObject("Sidebar.BackgroundImage"), System.Drawing.Image)
+        Me.Sidebar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Sidebar.Location = New System.Drawing.Point(665, 0)
+        Me.Sidebar.Name = "Sidebar"
+        Me.Sidebar.Size = New System.Drawing.Size(162, 455)
+        Me.Sidebar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Sidebar.TabIndex = 27
+        Me.Sidebar.TabStop = False
         '
         'Label11
         '
@@ -374,21 +370,38 @@ Partial Class OS
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ToolTip1.SetToolTip(Me.Label1, "Click for more info")
         '
-        'TimeUpdater
+        'AMB
         '
+        Me.AMB.BackgroundImage = CType(resources.GetObject("AMB.BackgroundImage"), System.Drawing.Image)
+        Me.AMB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.AMB.Location = New System.Drawing.Point(3, 0)
+        Me.AMB.Name = "AMB"
+        Me.AMB.Size = New System.Drawing.Size(139, 23)
+        Me.AMB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.AMB.TabIndex = 0
+        Me.AMB.TabStop = False
         '
-        'PictureBox7
+        'Button1
         '
-        Me.PictureBox7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox7.BackgroundImage = Global.VisualBasicOS.My.Resources.Resources.Sidebar1
-        Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(665, 0)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(162, 455)
-        Me.PictureBox7.TabIndex = 27
-        Me.PictureBox7.TabStop = False
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.Location = New System.Drawing.Point(801, 1)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(23, 21)
+        Me.Button1.TabIndex = 17
+        Me.ToolTip1.SetToolTip(Me.Button1, "Stops All Audio That is currently Playing. (In The OS Enviorment.)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(701, 1)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(93, 25)
+        Me.Label12.TabIndex = 28
+        Me.Label12.Text = "Sidebar"
         '
         'OS
         '
@@ -404,9 +417,9 @@ Partial Class OS
         Me.Text = "Visual Basic OS"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.AMB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.Sidebar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -415,7 +428,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AMB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -448,5 +461,6 @@ Partial Class OS
     Friend WithEvents Label10 As Label
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents Sidebar As PictureBox
+    Friend WithEvents Label12 As Label
 End Class

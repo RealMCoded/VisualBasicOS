@@ -13,6 +13,8 @@
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
         AMB.BackgroundImageLayout = ImageLayout.Stretch
+        Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\Sidebar.png")
+        Sidebar.BackgroundImageLayout = ImageLayout.Stretch
         Panel2.BackColor = Color.DeepSkyBlue
         My.Computer.Audio.Play(".\assets\sounds\startup.wav")
         TimeUpdater.Start()
@@ -39,7 +41,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is EARLY TEST " + Label11.Text, MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is " + Label11.Text, MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
@@ -53,7 +55,7 @@
         If Troll = 1 Then
             MsgBox("The Background Changer worked on the first try when i coded it (probably because most of the code is the same as the old switcher :P)", MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 2 Then
-            MsgBox("The Version Of VBOS you are running is EARLY TEST " + Label11.Text, MsgBoxStyle.Information, "VBOS Fact")
+            MsgBox("The Version Of VBOS you are running is " + Label11.Text, MsgBoxStyle.Information, "VBOS Fact")
         ElseIf Troll = 3 Then
             MsgBox("You Can Modify The Sounds, Wallpapers, and Other Assets! Insert A Random Sound And Rename the new file to one of the sound names! (You Can Do The Same For The Wallpapers and Other Assets!)", MsgBoxStyle.Information, "VBOS Fact")
         End If
