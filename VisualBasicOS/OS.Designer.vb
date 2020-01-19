@@ -57,6 +57,7 @@ Partial Class OS
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -69,6 +70,7 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -425,6 +427,7 @@ Partial Class OS
         'Panel3
         '
         Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel3.Controls.Add(Me.Label15)
         Me.Panel3.Location = New System.Drawing.Point(0, 378)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(142, 74)
@@ -439,6 +442,15 @@ Partial Class OS
         Me.Label14.Size = New System.Drawing.Size(69, 13)
         Me.Label14.TabIndex = 31
         Me.Label14.Text = "Menu-Closed"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(22, 36)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(70, 13)
+        Me.Label15.TabIndex = 32
+        Me.Label15.Text = "Hey! It exists!"
         '
         'OS
         '
@@ -466,6 +478,8 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -503,4 +517,5 @@ Partial Class OS
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label15 As Label
 End Class

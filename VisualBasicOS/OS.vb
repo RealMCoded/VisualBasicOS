@@ -9,6 +9,7 @@
         Label7.Hide()
         Label11.Hide()
         Label13.Hide()
+        Panel3.Hide()
         Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.png")
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
