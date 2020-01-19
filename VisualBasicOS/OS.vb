@@ -137,11 +137,19 @@
         If Label13.Text = "S-Open" Then
             Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\SidebarClosed.png")
             Label12.Hide()
+            Button2.Hide()
+            Label17.Hide()
             Label13.Text = "S-Close"
         ElseIf Label13.Text = "S-Close" Then
             Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\Sidebar.png")
             Label12.Show()
+            Button2.Show()
+            Label17.Show()
             Label13.Text = "S-Open"
         End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        MsgBox("This Feature is still in development. Please check back later. Error: 001", MsgBoxStyle.Critical, "Error")
     End Sub
 End Class
