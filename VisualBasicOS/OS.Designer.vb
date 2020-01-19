@@ -58,6 +58,7 @@ Partial Class OS
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -427,6 +428,7 @@ Partial Class OS
         'Panel3
         '
         Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel3.Controls.Add(Me.Label16)
         Me.Panel3.Controls.Add(Me.Label15)
         Me.Panel3.Location = New System.Drawing.Point(0, 274)
         Me.Panel3.Name = "Panel3"
@@ -452,6 +454,16 @@ Partial Class OS
         Me.Label15.TabIndex = 32
         Me.Label15.Tag = ""
         Me.Label15.Text = "Nothing to see here..."
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(3, 2)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(137, 20)
+        Me.Label16.TabIndex = 32
+        Me.Label16.Text = "Visual Basic OS"
         '
         'OS
         '
@@ -519,4 +531,5 @@ Partial Class OS
     Friend WithEvents Label14 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
 End Class
