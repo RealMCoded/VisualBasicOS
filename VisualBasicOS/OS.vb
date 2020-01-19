@@ -8,7 +8,7 @@
         Label5.Hide()
         Label7.Hide()
         Label11.Hide()
-        'Label12.Hide()
+        Label13.Hide()
         Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.png")
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
@@ -122,5 +122,17 @@
 
     Private Sub PictureBox8_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub Sidebar_Click(sender As Object, e As EventArgs) Handles Sidebar.Click
+        If Label13.Text = "S-Open" Then
+            Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\SidebarClosed.png")
+            Label12.Hide()
+            Label13.Text = "S-Close"
+        ElseIf Label13.Text = "S-Close" Then
+            Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\Sidebar.png")
+            Label12.Show()
+            Label13.Text = "S-Open"
+        End If
     End Sub
 End Class
