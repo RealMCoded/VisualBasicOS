@@ -65,11 +65,11 @@ Partial Class about
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(22, 277)
+        Me.Label3.Location = New System.Drawing.Point(36, 277)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(272, 31)
+        Me.Label3.Size = New System.Drawing.Size(225, 31)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "(Early Tester Mode)"
+        Me.Label3.Text = "Codename Exxa"
         '
         'Label4
         '
@@ -79,7 +79,7 @@ Partial Class about
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(243, 31)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "(C) 2019 MCoded"
+        Me.Label4.Text = "(C) 2020 MCoded"
         '
         'about
         '

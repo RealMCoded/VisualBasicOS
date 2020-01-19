@@ -74,9 +74,9 @@ Partial Class OS
         Me.Panel1.Controls.Add(Me.AMB)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.ForeColor = System.Drawing.Color.Black
-        Me.Panel1.Location = New System.Drawing.Point(0, 390)
+        Me.Panel1.Location = New System.Drawing.Point(0, 454)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(751, 24)
+        Me.Panel1.Size = New System.Drawing.Size(827, 24)
         Me.Panel1.TabIndex = 0
         '
         'WinClock
@@ -84,7 +84,7 @@ Partial Class OS
         Me.WinClock.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.WinClock.AutoSize = True
         Me.WinClock.ForeColor = System.Drawing.Color.White
-        Me.WinClock.Location = New System.Drawing.Point(586, 5)
+        Me.WinClock.Location = New System.Drawing.Point(662, 5)
         Me.WinClock.Name = "WinClock"
         Me.WinClock.Size = New System.Drawing.Size(34, 13)
         Me.WinClock.TabIndex = 1
@@ -106,7 +106,7 @@ Partial Class OS
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(725, 1)
+        Me.Button1.Location = New System.Drawing.Point(801, 1)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(23, 21)
         Me.Button1.TabIndex = 17
@@ -144,14 +144,14 @@ Partial Class OS
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Location = New System.Drawing.Point(0, -1)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(751, 391)
+        Me.Panel2.Size = New System.Drawing.Size(827, 455)
         Me.Panel2.TabIndex = 1
         '
         'Label11
         '
         Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(709, 63)
+        Me.Label11.Location = New System.Drawing.Point(785, 63)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(31, 13)
         Me.Label11.TabIndex = 25
@@ -205,7 +205,7 @@ Partial Class OS
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(655, 299)
+        Me.Label8.Location = New System.Drawing.Point(731, 363)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(73, 16)
         Me.Label8.TabIndex = 20
@@ -215,7 +215,7 @@ Partial Class OS
         '
         Me.PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(667, 246)
+        Me.PictureBox4.Location = New System.Drawing.Point(743, 310)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -226,7 +226,7 @@ Partial Class OS
         '
         Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(709, 44)
+        Me.Label7.Location = New System.Drawing.Point(785, 44)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(33, 13)
         Me.Label7.TabIndex = 18
@@ -257,7 +257,7 @@ Partial Class OS
         '
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(705, 26)
+        Me.Label5.Location = New System.Drawing.Point(781, 26)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(34, 13)
         Me.Label5.TabIndex = 14
@@ -288,7 +288,7 @@ Partial Class OS
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(709, 10)
+        Me.Label2.Location = New System.Drawing.Point(785, 10)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(28, 13)
         Me.Label2.TabIndex = 11
@@ -363,7 +363,7 @@ Partial Class OS
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(612, 324)
+        Me.Label1.Location = New System.Drawing.Point(688, 388)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(139, 64)
         Me.Label1.TabIndex = 0
@@ -378,7 +378,7 @@ Partial Class OS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(749, 412)
+        Me.ClientSize = New System.Drawing.Size(825, 476)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
