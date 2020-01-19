@@ -428,9 +428,9 @@ Partial Class OS
         '
         Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel3.Controls.Add(Me.Label15)
-        Me.Panel3.Location = New System.Drawing.Point(0, 378)
+        Me.Panel3.Location = New System.Drawing.Point(0, 274)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(142, 74)
+        Me.Panel3.Size = New System.Drawing.Size(142, 178)
         Me.Panel3.TabIndex = 30
         '
         'Label14
@@ -446,11 +446,12 @@ Partial Class OS
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(22, 36)
+        Me.Label15.Location = New System.Drawing.Point(12, 62)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(70, 13)
+        Me.Label15.Size = New System.Drawing.Size(109, 13)
         Me.Label15.TabIndex = 32
-        Me.Label15.Text = "Hey! It exists!"
+        Me.Label15.Tag = ""
+        Me.Label15.Text = "Nothing to see here..."
         '
         'OS
         '
