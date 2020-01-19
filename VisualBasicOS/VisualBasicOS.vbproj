@@ -87,12 +87,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="DISPLAY2.Designer.vb">
-      <DependentUpon>DISPLAY2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="DISPLAY2.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="ImgShow.Designer.vb">
       <DependentUpon>ImgShow.vb</DependentUpon>
     </Compile>
@@ -197,9 +191,6 @@
   <ItemGroup>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DISPLAY2.resx">
-      <DependentUpon>DISPLAY2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ImgShow.resx">
       <DependentUpon>ImgShow.vb</DependentUpon>

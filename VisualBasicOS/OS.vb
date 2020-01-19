@@ -8,7 +8,7 @@
         Label5.Hide()
         Label7.Hide()
         Label11.Hide()
-        Label12.Hide()
+        'Label12.Hide()
         Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.png")
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
@@ -114,17 +114,11 @@
         Music.Show()
     End Sub
 
-    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
-        If Label12.Text = "en" Then
-            Label12.Text = "fr"
-            MsgBox("Language Switched To French.", MsgBoxStyle.Information, "Language Switcher (BETA)")
-        ElseIf Label12.Text = "fr" Then
-            Label12.Text = "en"
-            MsgBox("Langue Changer Au Anglais.", MsgBoxStyle.Information, "Language Switcher (BETA)")
-        End If
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs)
+
     End Sub
 
-    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-        DISPLAY2.Show()
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
