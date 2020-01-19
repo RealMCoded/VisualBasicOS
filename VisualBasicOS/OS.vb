@@ -139,6 +139,7 @@
             Label12.Hide()
             Button2.Hide()
             Label17.Hide()
+            Label18.Hide()
             Label13.Text = "S-Close"
         ElseIf Label13.Text = "S-Close" Then
             Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\Sidebar.png")
