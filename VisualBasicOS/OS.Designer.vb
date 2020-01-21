@@ -32,14 +32,16 @@ Partial Class OS
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Sidebar = New System.Windows.Forms.PictureBox()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -62,12 +64,11 @@ Partial Class OS
         Me.Fact_TXT = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.AMB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Sidebar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -77,7 +78,6 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -189,6 +189,47 @@ Partial Class OS
         Me.Panel2.Size = New System.Drawing.Size(827, 455)
         Me.Panel2.TabIndex = 1
         '
+        'Panel3
+        '
+        Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel3.Controls.Add(Me.Label16)
+        Me.Panel3.Controls.Add(Me.Label15)
+        Me.Panel3.Location = New System.Drawing.Point(0, 277)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(142, 178)
+        Me.Panel3.TabIndex = 30
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(3, 2)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(137, 20)
+        Me.Label16.TabIndex = 32
+        Me.Label16.Text = "Visual Basic OS"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(12, 62)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(109, 13)
+        Me.Label15.TabIndex = 32
+        Me.Label15.Tag = ""
+        Me.Label15.Text = "Nothing to see here..."
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.White
+        Me.Label19.Location = New System.Drawing.Point(87, 352)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(91, 16)
+        Me.Label19.TabIndex = 36
+        Me.Label19.Text = "VBOS News"
+        '
         'Label18
         '
         Me.Label18.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -210,6 +251,16 @@ Partial Class OS
         Me.Button2.TabIndex = 33
         Me.Button2.Text = "Add item"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
+        Me.PictureBox7.Location = New System.Drawing.Point(109, 299)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 35
+        Me.PictureBox7.TabStop = False
         '
         'Label17
         '
@@ -247,36 +298,6 @@ Partial Class OS
         Me.Label14.TabIndex = 31
         Me.Label14.Text = "M-Close"
         '
-        'Panel3
-        '
-        Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Panel3.Controls.Add(Me.Label16)
-        Me.Panel3.Controls.Add(Me.Label15)
-        Me.Panel3.Location = New System.Drawing.Point(0, 277)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(142, 178)
-        Me.Panel3.TabIndex = 30
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(3, 2)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(137, 20)
-        Me.Label16.TabIndex = 32
-        Me.Label16.Text = "Visual Basic OS"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(12, 62)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(109, 13)
-        Me.Label15.TabIndex = 32
-        Me.Label15.Tag = ""
-        Me.Label15.Text = "Nothing to see here..."
-        '
         'Label13
         '
         Me.Label13.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -309,7 +330,7 @@ Partial Class OS
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(31, 13)
         Me.Label11.TabIndex = 25
-        Me.Label11.Text = "0.1.5"
+        Me.Label11.Text = "0.1.6"
         '
         'Label10
         '
@@ -511,27 +532,6 @@ Partial Class OS
         Me.PictureBox3.TabIndex = 4
         Me.PictureBox3.TabStop = False
         '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(87, 352)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(91, 16)
-        Me.Label19.TabIndex = 36
-        Me.Label19.Text = "VBOS News"
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(109, 299)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(50, 50)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 35
-        Me.PictureBox7.TabStop = False
-        '
         'OS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -551,6 +551,7 @@ Partial Class OS
         Me.Panel2.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Sidebar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -560,7 +561,6 @@ Partial Class OS
         CType(Me.Fact_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ImgView_ICO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
