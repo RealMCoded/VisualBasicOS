@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("MCoded")>
 <Assembly: AssemblyProduct("VisualBasicOS")>
-<Assembly: AssemblyCopyright("Copyright © MCoded 2019")>
+<Assembly: AssemblyCopyright("Copyright © MCoded 2020")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
