@@ -22,6 +22,7 @@ Partial Class News
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(News))
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -59,6 +60,7 @@ Partial Class News
         Me.ClientSize = New System.Drawing.Size(658, 355)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.WebBrowser1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "News"
         Me.Text = "VBOS News"
         Me.ResumeLayout(False)
