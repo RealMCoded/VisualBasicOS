@@ -11,6 +11,8 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Me.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+        'Me.WindowState = FormWindowState.Maximized
         Label2.Hide()
         Label5.Hide()
         Label7.Hide()

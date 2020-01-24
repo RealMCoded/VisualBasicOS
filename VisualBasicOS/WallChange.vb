@@ -40,7 +40,11 @@
             OS.Label2.Hide()
             CheckBox2.Checked = False
         End If
-
+        If OS.Label20.Text = "Full" Then
+            CheckBox3.Checked = True
+        Else
+            CheckBox3.Checked = False
+        End If
     End Sub
 
     Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton3.CheckedChanged
@@ -80,5 +84,21 @@
         OS.Panel2.BackgroundImageLayout = ImageLayout.Stretch
         OS.Panel2.BackColor = Color.DeepSkyBlue
         OS.Label2.Text = "DEF"
+    End Sub
+
+    Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
+        If CheckBox3.Checked = True Then
+            OS.Label20.Text = "Full"
+            OS.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+            OS.WindowState = FormWindowState.Maximized
+            Me.TopMost = True
+            Me.TopMost = False
+        Else
+            OS.Label20.Text = "Norm"
+            OS.FormBorderStyle = Windows.Forms.FormBorderStyle.Sizable
+            OS.WindowState = FormWindowState.Normal
+            Me.TopMost = True
+            Me.TopMost = False
+        End If
     End Sub
 End Class
