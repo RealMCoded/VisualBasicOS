@@ -32,12 +32,12 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.VBOSDEV.OS
+            Me.MainForm = Global.VBOS.OS
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateSplashScreen()
-            Me.SplashScreen = Global.VBOSDEV.Splash
+            Me.SplashScreen = Global.VBOS.Splash
         End Sub
     End Class
 End Namespace
