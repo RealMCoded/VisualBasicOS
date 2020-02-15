@@ -28,7 +28,7 @@ Partial Class MusList
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"pizza", "Slot1", "Slot2", "Slot3"})
+        Me.ListBox1.Items.AddRange(New Object() {"bicycle", "Slot1", "Slot2", "Slot3"})
         Me.ListBox1.Location = New System.Drawing.Point(0, 0)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(180, 199)
