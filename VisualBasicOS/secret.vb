@@ -2,6 +2,7 @@
     Private Sub Secret_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' PictureBox1.BackgroundImage = Image.FromFile(".\assets\misc\cp_dance.gif")
         'PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        Timer1.Start()
         My.Computer.Audio.Play(".\assets\sounds\music\bicycle.wav", AudioPlayMode.BackgroundLoop)
     End Sub
 
