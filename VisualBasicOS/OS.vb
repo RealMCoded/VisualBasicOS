@@ -20,8 +20,10 @@
         Label13.Hide()
         Label14.Hide()
         Panel3.Hide()
+        'Panel2.BackgroundImage = Image.FromFile(".\assets\misc\missing.png")
         Panel2.BackgroundImage = Image.FromFile(".\assets\wallpapers\default.png")
         Panel2.BackgroundImageLayout = ImageLayout.Stretch
+        'AMB.BackgroundImage = Image.FromFile(".\assets\misc\missing.png")
         AMB.BackgroundImage = Image.FromFile(".\assets\misc\AppMenuButton.png")
         AMB.BackgroundImageLayout = ImageLayout.Stretch
         Sidebar.BackgroundImage = Image.FromFile(".\assets\misc\Sidebar.png")
