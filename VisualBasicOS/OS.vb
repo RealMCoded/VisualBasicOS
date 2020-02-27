@@ -160,9 +160,10 @@
 
     Private Sub PictureBox7_Click_1(sender As Object, e As EventArgs) Handles PictureBox7.Click
         If My.Computer.Network.IsAvailable Then
+            'MsgBox("You need a valid internet connection to view the news feed! Error 3.", MsgBoxStyle.Critical, "Couldn't connect!")
             News.Show()
         Else
-            MsgBox("You need a valid internet connection to view the news feed! Error 3.")
+            MsgBox("You need a valid internet connection to view the news feed! Error 3.", MsgBoxStyle.Critical, "Couldn't connect!")
         End If
     End Sub
 
@@ -170,7 +171,7 @@
         If My.Computer.Network.IsAvailable Then
             News.Show()
         Else
-            MsgBox("You need a valid internet connection to view the news feed! Error 3.")
+            MsgBox("You need a valid internet connection to view the news feed! Error 3.", MsgBoxStyle.Critical, "Couldn't connect!")
         End If
     End Sub
 End Class

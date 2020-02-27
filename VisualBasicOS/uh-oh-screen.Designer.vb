@@ -32,7 +32,7 @@ Partial Class uh_oh_screen
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 25)
+        Me.Label1.Location = New System.Drawing.Point(2, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(481, 42)
         Me.Label1.TabIndex = 0
@@ -41,16 +41,17 @@ Partial Class uh_oh_screen
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(34, 77)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(2, 72)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(427, 78)
+        Me.Label2.Size = New System.Drawing.Size(479, 74)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Click the button bellow to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "   resume your session."
+        Me.Label2.Text = "Choose bellow with what to do" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "with your current session."
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(77, 169)
+        Me.Button1.Location = New System.Drawing.Point(77, 158)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(120, 22)
         Me.Button1.TabIndex = 2
@@ -59,7 +60,7 @@ Partial Class uh_oh_screen
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(274, 169)
+        Me.Button2.Location = New System.Drawing.Point(272, 158)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(160, 23)
         Me.Button2.TabIndex = 3
@@ -71,7 +72,7 @@ Partial Class uh_oh_screen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MediumSeaGreen
-        Me.ClientSize = New System.Drawing.Size(495, 213)
+        Me.ClientSize = New System.Drawing.Size(486, 201)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
