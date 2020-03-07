@@ -105,6 +105,12 @@
     <Compile Include="MusList.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="NewCrash.Designer.vb">
+      <DependentUpon>NewCrash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewCrash.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="News.Designer.vb">
       <DependentUpon>News.vb</DependentUpon>
     </Compile>
@@ -212,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MusList.resx">
       <DependentUpon>MusList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCrash.resx">
+      <DependentUpon>NewCrash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="News.resx">
       <DependentUpon>News.vb</DependentUpon>

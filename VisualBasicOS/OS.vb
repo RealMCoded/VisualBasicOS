@@ -89,7 +89,8 @@
 
     Private Sub PictureBox2_Click_2(sender As Object, e As EventArgs) Handles PictureBox2.Click
         Me.Hide()
-        uh_oh_screen.Show()
+        'uh_oh_screen.Show()
+        NewCrash.Show()
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
